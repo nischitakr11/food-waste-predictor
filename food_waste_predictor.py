@@ -45,6 +45,7 @@ def display_report(prepared, consumed, waste, waste_percentage, level, recommend
     print(f"Waste Percentage  : {waste_percentage:.2f}%")
     print(f"Waste Level       : {level}")
     print(f"Recommendation    : {recommendation}")
+    print("Status            : Analysis completed successfully.")
     print("========================================")
 
 
